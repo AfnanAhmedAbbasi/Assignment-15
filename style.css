@@ -1,0 +1,994 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color:rgb(24, 27, 43);
+}
+.brand{
+    margin-top: 14px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 150px;
+
+
+}
+.navbar{
+    font-size: 13px;
+    color: white;
+    display: inline-block;
+    margin-left: 150px;
+    font-weight:700;
+}
+.Login{
+    font-size: 13px;
+    color: white;
+    display: inline-block;
+    font-weight: 700;
+    margin-left: 320px;
+
+}
+.joinus{
+    border: 1px solid;
+    background-color: #23A6F0;
+    display: inline-block;
+    font-weight: 00;
+    color: white;
+    font-size: 13px;
+    border: none;
+    margin-left: 45px;
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    padding:15px 37px 0px 25px;
+
+    gap: 15px;
+    
+
+}
+.joinus:hover{
+    background-color: darkblue;
+}
+
+.joinus img{
+   width: 12px;
+   height: 10px;
+   position: absolute;
+   margin-top: 3px;
+   margin-left: 12px;
+}
+.welcome{
+    font-size: 16px;
+    font-weight: 700;
+    color: #23A6F0;
+    margin-left: 600px;
+    margin-top: 90px;
+}
+.selling{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    color: white;
+    text-align: center;
+    margin-top: 55px;
+    margin-left: 1px;
+}
+p{
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin-left: 440px;
+    line-height: 28px;
+}
+.quote{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    margin-left: 510px;
+    border: 1px solid;
+    background-color: #23A6F0;
+    padding: 15px 30px 15px 30px;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+    margin-top: 25px;
+}
+.quote:hover{
+    background-color: darkblue;
+}
+.learn{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    margin-left: 700px;
+    margin-top: -48px;
+    padding: 15px ;
+    border: 1px solid;
+    /* display: inline-block; */
+margin-right: 480px;
+border-color: #23A6F0;
+border-radius: 5px;
+text-align: center;
+}
+.learn:hover{
+    background-color: #737373;
+}
+    
+
+.emoji{
+    background-color: white;
+    height: 292px;
+    width: 330px;
+    margin-left: 130px;
+    margin-top: 90px;
+    display: inline-block;
+  
+    
+
+}
+.emoji img{
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+.training{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-top: 24px;
+    margin-left: 35px;
+}
+
+hr{
+    margin-top: 26px;
+    width: 50px;
+    margin-left: 35px;
+    background-color: #E74040;
+    height: 2px;
+    
+}
+.text1{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-left: 35px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    margin-top: 23px;
+    
+}
+.emoji2{
+    background-color: white;
+    height: 292px;
+    width: 330px;
+    margin-left: 65px;
+    margin-top: 90px;
+    display: inline-block;
+  
+    
+
+}
+.emoji2 img{
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+.training2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-top: 24px;
+    margin-left: 35px;
+}
+
+hr{
+    margin-top: 26px;
+    width: 50px;
+    margin-left: 35px;
+    background-color: #E74040;
+    height: 2px;
+    
+}
+.text1{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-left: 35px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    margin-top: 23px;
+    
+}
+.emoji3{
+    background-color:#23A6F0;
+    height: 292px;
+    width: 330px;
+    margin-left: 65px;
+    margin-top: 90px;
+    display: inline-block;
+  
+    
+
+}
+.emoji3 img{
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+.training3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-top: 24px;
+    margin-left: 35px;
+}
+
+.specialhr{
+    margin-top: 26px;
+    width: 50px;
+    margin-left: 35px;
+    background-color:#FFFFFF;
+    height: 2px;
+    
+}
+.text1{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-left: 35px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    margin-top: 23px;
+    
+}
+.secondpage{
+border: 1px solid orange;
+width: 1440px;
+height: 715px;
+margin-top: 80px;
+background-color: #FFFFFF;
+}
+.secondhr{
+    width: 94px;
+    height: 7px;
+    margin-top: 200px;
+    margin-left: 190px;
+}
+.package{
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 190px;
+margin-top: 50px;
+}
+.twochild img{
+    margin-left:800px ;
+    margin-top:-200px;
+}
+.Australlia{
+    margin-left:700px;
+    margin-top:-60px;
+    position: relative;
+}
+.blue img{
+    margin-left:740px ;
+    margin-top: -400px;
+    position: absolute;
+}
+.twenty19 img{
+    margin-left:690px ;
+    margin-top: -395px;
+    position: absolute;
+}
+.pink img{
+    margin-left:1140px ;
+    margin-top: -115px;
+    position: absolute;
+}
+.text2{
+    font-weight: 500;
+    font-size: 14;
+    line-height: 20px;
+    color: #737373;
+    margin-left: 190px;
+    margin-top: -150px;
+}
+.learnmore a{
+text-decoration: none;
+color:#23A6F0;
+font-weight: 700;
+font-size: 14px;
+margin-left: 190px;
+margin-top: 28px;
+position: absolute;
+}
+.learnmore img{
+    position: absolute;
+    margin-top: -1px;
+    margin-left: 15px;
+}
+.thirdpage{
+    border: 1px solid white;
+width: 1440px;
+height: 1615px;
+margin-top: 80px;
+background-color: #FFFFFF;
+margin-top: -16px;
+display: inline-block;
+}
+.practiceadvice{
+    font-size: 14px;
+    font-weight: 700;
+    color: #23A6F0;
+    margin-top: 380px;
+    margin-left: 190px;
+    letter-spacing: 0.4;
+}
+.online{
+    color: #252B42;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: 190px;
+
+}
+.text3{
+    font-weight: 500;
+    font-size: 14;
+    line-height: 20px;
+    color: #737373;
+    margin-left: 190px;
+    margin-top: 10px;
+}
+/* .thirdmain{
+    display: inline-block;
+} */
+.thirdone{
+    display: inline-block;
+}
+.stickynotes{
+    margin-top: 95px;
+    margin-left: 70px;
+    position: relative;
+    
+}
+.stickynotes{
+    border: 1px solid white;
+    height: 600px;
+
+}
+.sale img{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -584px;
+}
+.heart img{
+    position: absolute;
+    margin-left: 134px;
+    margin-top: -364px;
+}
+.basket img{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -364px;
+}
+.eye img{
+    position: absolute;
+    margin-left: 240px;
+    margin-top: -364px;
+}
+.english{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -280px;
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 14px;
+}
+.star409 img{
+    position: absolute;
+    margin-left: 270px;
+    margin-top: -285px;
+}
+.gdesign{
+    color: #252B42;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 120px;
+    margin-top: -250px;
+
+}
+.focus{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 120px;
+    margin-top: 12px;
+    color:#737373;
+    position: absolute;
+}
+.vector2 img{
+    margin-left: 120px;
+    margin-top: 63px;
+    position: absolute;
+}
+.sales15 img{
+    margin-left: 150px;
+    margin-top: 66px;
+    position: absolute;
+}
+.greyprice img{
+    margin-left: 120px;
+    margin-top: 100px;
+    position: absolute;
+}
+.greenprice img{
+    margin-left: 180px;
+    margin-top: 100px;
+    position: absolute;
+}
+.pro img{
+    margin-left: 120px;
+    margin-top: 150px;
+    position: absolute;
+}
+.less img{
+    margin-left: 185px;
+    margin-top: 150px;
+    position: absolute;
+}
+.hour22 img{
+    margin-left: 265px;
+    margin-top: 150px;
+    position: absolute;
+}
+.button img{
+    margin-left: 125px;
+    margin-top: 200px;
+    position: absolute;
+}
+.thirdtwo{
+    display: inline-block;
+    margin-left: -130px;
+}
+.stickynotes2{
+    margin-top: 95px;
+    margin-left: 190px;
+    position: relative;
+    display: inline-block;
+
+
+}
+.stickynotes2{
+    border: 1px solid white;
+    height: 600px;
+
+}
+.sale2 img{
+    position: absolute;
+    margin-left: 210px;
+    margin-top: -584px;
+}
+.heart2 img{
+    position: absolute;
+    margin-left: 234px;
+    margin-top: -364px;
+}
+.basket2 img{
+    position: absolute;
+    margin-left: 290px;
+    margin-top: -364px;
+}
+.eye2 img{
+    position: absolute;
+    margin-left: 340px;
+    margin-top: -364px;
+}
+.english2{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: -280px;
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 14px;
+}
+.star4092 img{
+    position: absolute;
+    margin-left: 370px;
+    margin-top: -285px;
+}
+.gdesign2{
+    color: #252B42;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 220px;
+    margin-top: -250px;
+
+}
+.focus2{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 220px;
+    margin-top: 12px;
+    color:#737373;
+    position: absolute;
+}
+.vector3 img{
+    margin-left: 220px;
+    margin-top: 63px;
+    position: absolute;
+}
+.sales152 img{
+    margin-left: 250px;
+    margin-top: 66px;
+    position: absolute;
+}
+.greyprice2 img{
+    margin-left: 220px;
+    margin-top: 100px;
+    position: absolute;
+}
+.greenprice2 img{
+    margin-left: 280px;
+    margin-top: 100px;
+    position: absolute;
+}
+.pro2 img{
+    margin-left: 220px;
+    margin-top: 150px;
+    position: absolute;
+}
+.less2 img{
+    margin-left: 285px;
+    margin-top: 150px;
+    position: absolute;
+}
+.hour222 img{
+    margin-left: 365px;
+    margin-top: 150px;
+    position: absolute;
+}
+.button2 img{
+    margin-left: 225px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.thirdthree{
+    display: inline-block;
+    margin-left: -130px;
+}
+.stickynotes2{
+    margin-top: 95px;
+    margin-left: 190px;
+    position: relative;
+    display: inline-block;
+
+
+}
+.stickynotes2{
+    border: 1px solid white;
+    height: 600px;
+
+}
+.sale2 img{
+    position: absolute;
+    margin-left: 210px;
+    margin-top: -584px;
+}
+.heart2 img{
+    position: absolute;
+    margin-left: 234px;
+    margin-top: -364px;
+}
+.basket2 img{
+    position: absolute;
+    margin-left: 290px;
+    margin-top: -364px;
+}
+.eye2 img{
+    position: absolute;
+    margin-left: 340px;
+    margin-top: -364px;
+}
+.english2{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: -280px;
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 14px;
+}
+.star4092 img{
+    position: absolute;
+    margin-left: 370px;
+    margin-top: -285px;
+}
+.gdesign2{
+    color: #252B42;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 220px;
+    margin-top: -250px;
+
+}
+.focus2{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 220px;
+    margin-top: 12px;
+    color:#737373;
+    position: absolute;
+}
+.vector3 img{
+    margin-left: 220px;
+    margin-top: 63px;
+    position: absolute;
+}
+.sales152 img{
+    margin-left: 250px;
+    margin-top: 66px;
+    position: absolute;
+}
+.greyprice2 img{
+    margin-left: 220px;
+    margin-top: 100px;
+    position: absolute;
+}
+.greenprice2 img{
+    margin-left: 280px;
+    margin-top: 100px;
+    position: absolute;
+}
+.pro2 img{
+    margin-left: 220px;
+    margin-top: 150px;
+    position: absolute;
+}
+.less2 img{
+    margin-left: 285px;
+    margin-top: 150px;
+    position: absolute;
+}
+.hour222 img{
+    margin-left: 365px;
+    margin-top: 150px;
+    position: absolute;
+}
+.button2 img{
+    margin-left: 225px;
+    margin-top: 200px;
+    position: absolute;
+}
+.thirdfour{
+    display: inline-block;
+    margin-left: -130px;
+}
+.stickynotes2{
+    margin-top: 95px;
+    margin-left: 190px;
+    position: relative;
+    display: inline-block;
+
+
+}
+.stickynotes2{
+    border: 1px solid white;
+    height: 600px;
+
+}
+.sale2 img{
+    position: absolute;
+    margin-left: 210px;
+    margin-top: -584px;
+}
+.heart2 img{
+    position: absolute;
+    margin-left: 234px;
+    margin-top: -364px;
+}
+.basket2 img{
+    position: absolute;
+    margin-left: 290px;
+    margin-top: -364px;
+}
+.eye2 img{
+    position: absolute;
+    margin-left: 340px;
+    margin-top: -364px;
+}
+.english2{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: -280px;
+    color: #23A6F0;
+    font-weight: 700;
+    font-size: 14px;
+}
+.star4092 img{
+    position: absolute;
+    margin-left: 370px;
+    margin-top: -285px;
+}
+.gdesign2{
+    color: #252B42;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 220px;
+    margin-top: -250px;
+
+}
+.focus2{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 220px;
+    margin-top: 12px;
+    color:#737373;
+    position: absolute;
+}
+.vector3 img{
+    margin-left: 220px;
+    margin-top: 63px;
+    position: absolute;
+}
+.sales152 img{
+    margin-left: 250px;
+    margin-top: 66px;
+    position: absolute;
+}
+.greyprice2 img{
+    margin-left: 220px;
+    margin-top: 100px;
+    position: absolute;
+}
+.greenprice2 img{
+    margin-left: 280px;
+    margin-top: 100px;
+    position: absolute;
+}
+.pro2 img{
+    margin-left: 220px;
+    margin-top: 150px;
+    position: absolute;
+}
+.less2 img{
+    margin-left: 285px;
+    margin-top: 150px;
+    position: absolute;
+}
+.hour222 img{
+    margin-left: 365px;
+    margin-top: 150px;
+    position: absolute;
+}
+.button2 img{
+    margin-left: 225px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.fourthpage{
+    width:  1450px;
+    height: 875px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.advice{
+    font-size: 14px;
+    font-weight: 700;
+    color: 
+    #23A6F0;
+    margin-left: 180PX;
+}
+ .expert{
+    font-size: 40px;
+    font-weight: 700;
+    color: #252B42;
+    margin-left: 170PX;
+    margin-top: 15PX;
+}
+.the{
+    font-size: 14px;
+    font-weight: 400;
+    color: 
+    #737373;
+    letter-spacing: 0.3;
+    margin-left: 170px;
+    margin-top: 14px;
+}
+.teachers{
+    display: inline-block;
+    justify-content: center;
+}
+.woman2 img{
+    margin-top: 150px;
+    margin-left: 400px;
+    border-radius: 63px;
+}
+.helps{
+    font-weight: 400;
+    font-size: 14px;
+    color:
+    #737373;
+    margin-left: 330px;
+    margin-top: 32px;
+}
+.star{
+    margin-left: 390px;
+    margin-top: 23px;
+}
+.miles{
+    color: #252B42;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 410px;
+    margin-top: 10px;
+
+}
+.designer{
+    color: 
+    #737373;
+    font-size: 14px;
+    font-weight:700;
+    margin-top: 10px;
+    margin-left: 430px;
+}
+.teachers2{
+    margin-left: 500px;
+    margin-top: -470px;
+}
+.star2{
+    margin-left: 900px;
+    margin-top: 23px;
+}
+.miles2{
+    color:black;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 930px;
+    margin-top: 10px;
+
+}
+.designer2{
+    color: 
+    #737373;
+    font-size: 14px;
+    font-weight:700;
+    margin-top: 10px;
+    margin-left: 940px;
+}
+.fifthpage{
+    width:  1450px;
+    height: 575px;
+    background-color: white;
+    display: inline-block;
+    
+}
+.center{
+    text-align: center;
+    color:  #23A6F0;
+    font-weight: 700; 
+     font-size: 14px;
+    margin-top: 10px; 
+}
+.product{
+    color: #252B42;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 0.5;
+    word-spacing: 9px;
+    margin-top: 21px;
+}
+.of{
+    color:
+    #737373;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 21px;
+}
+.feild {
+padding: 10px 115px;
+background-color:#F9F9F9;
+border: 1px solid;
+/* border: none; */
+width: 400px;
+justify-content: center;
+margin-left: 300px;
+border-radius: 5px;
+margin-top: 95px;
+border-color: 
+#E6E6E6;
+display: inline-block;
+}
+span{
+    margin-left: -95px;
+    color:
+    #737373;
+}
+.sub{
+    background-color: #23A6F0;
+    color: #E6E6E6;
+    display: inline-block;
+    /* border-radius: 0px, 5px, 5px, 0px; */
+    padding: 11px;
+    border-radius: 3px;
+    margin-left: -3px;
+}
+.sixthpage{
+    background-color:
+    #252B42;
+    width: 1400px;
+    height: 400px;
+}
+.heading{
+    justify-content: space-around;
+    display: flex;
+}
+.gg{
+    margin-top: 90px;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    
+}
+.one{
+    margin-top: 10px;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 110px;
+    margin-top: 45px;
+    display: inline-block;
+}
+.two{
+    color: white;
+    list-style: none;
+    margin-left: 325px;
+    margin-top: -105px;
+}
+li{
+    margin-top: 15px;
+}
+.three{
+    color: white;
+    list-style: none;
+    margin-left: 705px;
+    margin-top: -129px;
+}
+.four{
+    color: white;
+    list-style: none;
+    margin-left: 1019px;
+    margin-top: -129px;
+}
+/* .socailmedia img{ 
+    margin-top: -145px;
+} */
+.ff{
+    margin-top: 13px;
+}
+.seventhpage{
+    background-color: #FFFFFF;
+    width: 1400px;
+    height: 100px;
+    /* margin-top: 120px; */
+}
+.raja{
+    color: 
+    #737373;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 30px;
+    word-spacing: 6px;
+    line-height: 100px;
+
+
+}
